@@ -11,33 +11,42 @@ locale: "en-US"
 title: "Benyun ZHAO"
 title_separator: "-"
 name: &name "Benyun ZHAO"
-description: &description "Ph.D. Candidate at CUHK. Member of USR Group and HKCLR"
+description: &description "Ph.D. student in MAE@CUHK, focusing on computer vision applications in unmanned systems"
 url: https://zhaobenyun.github.io
 baseurl: ""
 repository: "ZHAOBenyun/main"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# Site Author
 author:
   # Biographic information
   avatar: "prof_pic.jpg"
   name: "Benyun ZHAO"
   pronouns: "he/him"
-  bio: "Ph.D. student in MAE@CUHK, focusing on computer vision applications in unmanned systems"
+  bio: "Hello! This is Benyun Zhao (赵犇赟). I am a Ph.D. student in the Department of Mechanical and Automation Engineering at CUHK"
   location: "Sha Tin, N.T., Hong Kong SAR"
   employer: "The Chinese University of Hong Kong"
-  email: # 您的邮箱地址
+  email: "Claude_ZBY@example.com" # 替换为您的实际邮箱
 
   # Academic websites
-  googlescholar: # 您的Google Scholar链接
-  orcid: # 您的ORCID链接
+  googlescholar: "https://scholar.google.com/citations?user=YOUR_ID" # 替换为您的ID
+  orcid: "http://orcid.org/YOUR_ID" # 替换为您的ID
 
-  # Social media
-  github: # 您的GitHub用户名
-  linkedin: # 您的LinkedIn用户名
-
-  # 其他社交媒体账号可以根据需要添加
+  # Navigation Links - 根据截图添加导航链接
+  links:
+    - label: "Publications"
+      url: "/publications/"
+    - label: "Talks"
+      url: "/talks/"
+    - label: "Teaching"
+      url: "/teaching/"
+    - label: "Portfolio"
+      url: "/portfolio/"
+    - label: "Blog Posts"
+      url: "/posts/"
+    - label: "CV"
+      url: "/cv/"
+    - label: "Guide"
+      url: "/guide/"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -170,16 +179,16 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  talks:
     output: true
     permalink: /:collection/:path/
-  talks:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
     output: true
     permalink: /:collection/:path/
 
