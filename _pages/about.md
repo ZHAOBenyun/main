@@ -7,43 +7,56 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+# About Me
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Hello! This is Benyun Zhao (赵犇赟). I am a Ph.D. student in the Department of [Mechanical and Automation Engineering](https://www4.mae.cuhk.edu.hk/) at [the Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/english/index.html), where I obtained my Master's degree in 2021. I am now a member of [Unmanned System Research (USR) group](http://www.mae.cuhk.edu.hk/~usr/) and [Hong Kong Centre for Logistics Robotics (HKCLR)](https://www.hkclr.hk/), supervised by [*Prof. Ben M. Chen*](https://www4.mae.cuhk.edu.hk/peoples/chen-benmei/) and frequently collaborating with [*Prof. Yunhui Liu*](https://www4.mae.cuhk.edu.hk/peoples/liu-yun-hui/) in CUHK and [*Prof. Mark W. Mueller*](https://me.berkeley.edu/people/mark-w-mueller/) in UC, Berkeley. My work focuses on engineer applications of computer vision based on unmanned systems, such as object detection and segmentation, VLM deployment, image enhancement, 3D scene reconstruction and understanding.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## Education
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+### Ph.D. in Mechanical and Automation Engineering
+- **Institution**: The Chinese University of Hong Kong
+- **Period**: 2022-09 - Present
+- **Supervisor**: [Prof. Ben M. Chen](https://www4.mae.cuhk.edu.hk/peoples/chen-benmei/)
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+### M.S. in Mechanical and Automation Engineering  
+- **Institution**: The Chinese University of Hong Kong
+- **Period**: 2020-09 - 2021-06
+- **GPA**: 3.7/4.0
+- **Key Coursework**:
+  - Control & Industrial Automation (A)
+  - Machine Learning for Signal Processing Applications (A) 
+  - Robotics (A-)
+  - MEMS Technology and Applications (A-)
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+### B.Eng. in Mechanical Design, Manufacturing and Automation
+- **Institution**: Jiangsu Ocean University
+- **Period**: 2016-09 - 2020-07
+- **GPA**: 4.5/5.0, Rank: 3/204
 
-**Markdown generator**
+## Research Experience
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+### Visiting Student
+- **Institution**: University of California, Berkeley (HiPeR Lab)
+- **Period**: 2023-09
+- **Supervisor**: [Prof. Mark W. Mueller](https://me.berkeley.edu/people/mark-w-mueller/)
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+### Research Assistant
+- **Institution**: CUHK and HKCLR
+- **Period**: 2021-2022
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+## Awards
+- Chun Wo Innovation Student Awards 2022 - Gold Award (HKD 100,000)
+- YDC Dare To Change 2022-2023 - Best Business Idea Award (HKD 15,000)
+- Professor Charles K. Ko Student Creativity Award - Champion (HKD 18,000)
+- 48th Geneva International Exhibition of Inventions - Bronze Medal
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## Research Interests
+- Unmanned Systems
+- Computer Vision
+- Robotics
+- 3D Scene Understanding
+- 3D Reconstruction
+
+Outside of work, I enjoy photography and exploring new places.
+
+For more details, please check my [resume](https://drive.google.com/file/d/1GDiKjFEzTa3S2a2nULWll4icZJ9xDbI2/view?usp=drive_link).
