@@ -12,9 +12,9 @@ title: "Benyun ZHAO"
 title_separator: "-"
 name: &name "Benyun ZHAO"
 description: &description "Ph.D. Candidate at CUHK. Member of USR Group and HKCLR"
-url: https://zhaobenyun.github.io # 请替换为您的GitHub用户名
+url: https://zhaobenyun.github.io
 baseurl: ""
-repository: "ZHAOBenyun\main" # 请替换为您的仓库名
+repository: "ZHAOBenyun/main"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
